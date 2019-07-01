@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto Slab';
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid red; */
+}
+
+.header-nav {
+  border-right: 4px solid #3E3544;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 15%;
+  background-color: #9A969C;
+  position: fixed;
+}
+
+.header-dog-icon {
+  height: 175px;
+  width: 175px;
+  margin: 30px 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 32px;
+}
+ 
+li {
+  margin-bottom: 50px;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.title-content {
+  background-color: #3E3544;
+  width: 1225px;
+  height: 500px;
+  margin-top: 0;
+  display: block;
+  float: right;
+}
+
+.title {
+  color: #fff;
+  font-size: 45px;
+  font-weight: 100;
+  float: right;
+  margin: 100px 90px 55px auto;
+}
+
+.bold-text {
+  font-weight: 900;
+}
+
+.dog-name-input {
+  float: right;
+  display: block;
+  margin-right: 25px;
+}
+
+.name-input-field {
+  width: 525px;
+  height: 57px;
+  display: block;
+  font-size: 17px;
+  padding: 5px;
+}
+
+.dog-name-btn {
+  display: block;
+  width: 525px;
+  height: 57px;
+  background-color: #9A969C;
+  margin-top: 25px;
+  margin-right: 50px;
+  border: none;
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.top-dog-img {
+  border: 10px solid #9A969C;
+  border-radius: 50%;
+  height: 450px;
+  width: 450px;
+  margin-left: 75px;
+  margin-top: 20px;
+  float: left;
+}
+
+label {
+  display: block;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 100;
+  margin-bottom: 10px;
+}
+
+.dogs-section {
+  width: 1222px;
+  float: right;
+}
+
+.column-titles {
+  font-size: 30px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+
+.dog-img {
+  border-radius: 50%;
+  border: 5px solid #9A969C;
+  height: 240px;
+  width: 240px;
+}
+
+.dog-1,
+.dog-2 {
+  /* display: block; */
+  border-bottom: 2px solid #9A969C;
+  margin: 40px;
+}
+
+.dog-info {
+  float: right;
+  width: 775px;
+  font-size: 22px;
+  margin-right: 60px;
+  
+}
+
+.dog-btn {
+  height: 57px;
+  width: 200px;
+  margin-left: 900px;
+  margin-bottom: 19px;
+  background-color: #3E3544;
+  font-size: 21px;
+  color: #fff;
+  font-weight: 600;
+}
+
+footer {
+  background-color: #3E3544;
+  width: 1225px;
+  height: 250px;
+  float: right;
+}
